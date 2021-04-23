@@ -10,7 +10,7 @@ module.exports = (env, argv) => {
   // FONDAMENTALE! Definiamo il file da utilizzare in base all'ambiente
   // Se WebPack vede che siamo in sviluppo andrà ad utilizzare './src/index_dev.js'
   // Se invece saremo in produzione utilizzerà './src/index.js'
-  const entryPath = argv.mode === 'development' ? './src/js/index_dev.js' : './src/js/index.js'
+  const entryPath = argv.mode === 'development' ? './src/index_dev.js' : './src/index.js'
   return {
     entry: {
       // Qui specifichiamo il file di ENTRATA, vedi commento sopra
@@ -29,7 +29,7 @@ module.exports = (env, argv) => {
     plugins: [
       // Plugin che prende un template e lo personalizza, completandolo con scripts ed eventuali stili
       new HtmlWebpackPlugin({
-        title: "Air Quality",
+        title: "Air Quality Now",
         template: path.resolve(__dirname, './src/index.html'),
       }),
       // Qui dotenv-webpack viene inizializzato

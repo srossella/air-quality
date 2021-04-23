@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> this is the title </title>
+    <title> <%= htmlWebpackPlugin.options.title %> </title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin=""/>
-    <link rel="stylesheet"  href="./css/style.css" />
+    <link rel="stylesheet"  href="./style.css" />
 
   </head>
   <body>
-    <img src="./img/background.jpg">
+    <img src="./background.jpg">
     
       <h1 id="title">Your <span style="text-decoration: underline;
       text-underline-offset:5px;">air quality</span> now</h1>
