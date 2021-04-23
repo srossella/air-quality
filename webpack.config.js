@@ -29,7 +29,7 @@ module.exports = (env, argv) => {
     plugins: [
       // Plugin che prende un template e lo personalizza, completandolo con scripts ed eventuali stili
       new HtmlWebpackPlugin({
-        title: "Pollution Forecast",
+        title: "Air Quality",
         template: path.resolve(__dirname, './src/index.html'),
       }),
       // Qui dotenv-webpack viene inizializzato
