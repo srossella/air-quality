@@ -28,7 +28,7 @@ document.getElementById('input-city').addEventListener('keyup', function(event) 
 const getForecastFromInput = async () => {
   //const urlToFetch= `${url}geo:${lat};${long}/?token=${key}`;
   const input=document.getElementById('input-city').value;
-  const urlToFetch= `/.netlify/functions/fetch-air-input?input=${input}`;
+  const urlToFetch= `/.netlify/functions/fetch_air_input?input=${input}`;
     
 
   try {
@@ -55,7 +55,7 @@ const getForecastFromInput = async () => {
 const getForecastFromCoord = async () => {
   //lat=-23.54564
   //long=-46.6457547
-  const urlToFetch=`/.netlify/functions/fetch-air?lat=${lat}&long=${long}`;
+  const urlToFetch=`/.netlify/functions/fetch_air_coords?lat=${lat}&long=${long}`;
 
   try {
     const response = await fetch(urlToFetch);
