@@ -19,7 +19,7 @@ module.exports = (env, argv) => {
     output: {
       // Una volta creato un pacchetto WebPack metterà i file risultanti nella cartella build
       filename: '[name].bundle.js',
-      path: path.resolve(__dirname, 'build')
+      path: path.resolve(__dirname, 'build/js')
     },
     // Configurazione di un plugin, necessario per sveltire il processo di sviluppo vedi asterischi nello snippet successivo **
     devServer: {
