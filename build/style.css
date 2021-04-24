@@ -25,8 +25,14 @@ a{
   margin-bottom: 20px;
   margin-top:20px;
   width: 280px;
-  background-color: rgba(255, 255, 255, 0.726);
   top: 60px;
+  background-color: #ffffffbb;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(12px);
+	border-radius: 10px;
 }
 
 
@@ -36,45 +42,26 @@ img{
   top:0px;
   left:0;
   z-index:-1;
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
   
 }
 #title{
   width:100%;
   height:75px;
-  background:#145348;
+  background:#145348c9; 
   padding:20px;
   color: #ffffff;
   letter-spacing: 0.05em;
-  font-size: 1.5em;
+  padding-bottom: 60px;
   font-size: 2em;
-  
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(12px);
+	
 }
 
-h1::after{
-  z-index: -1;
-  content: "";
-  background: #145348;
-  transform: skewY(8deg);
-  width: 50%;
-  height:80px;
-  position: absolute;
-  left: 0;
-  top: 40px;
-  border: solid 1px  #145348;
-}
-h1::before{
-  z-index: -1;
-  content: "";
-  background: #145348;
-  transform: skewY(-8deg);
-  width: 50%;
-  height: 80px;
-  position: absolute;
-  right: 0;
-  top: 40px;
-  border: solid 1px #145348;
-}
 
 
 
@@ -144,11 +131,11 @@ h4{
 
 #result-data{
   /* to be chnaged to none! */
-  display:none; 
+   display:none; 
   position: relative;
   margin-top: 80px;
   justify-content: center;
-  background-color: #ffffff86;
+  
   color:rgb(0, 0, 0);
   padding: 0px;
   font-size: 1.1em;
@@ -158,6 +145,7 @@ h4{
   
   flex-wrap: wrap;
   
+  
 }
 #result-city{
   font-size: 1.5em;
@@ -165,7 +153,9 @@ h4{
   padding: 20px;
   
   color:white;
-  background-color: #145348c9;
+  background-color: #145348;
+  width: 80vw;
+  margin: auto;
 }
 
 li{
@@ -185,8 +175,13 @@ ul{
   padding-top: 0;
   /* border: solid 2px #145336; */
   padding:15px;
-  background-color: #ffffff;
-  
+  background-color: #ffffffad;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(15px);
+	border-radius: 10px;
 }
 .aqi{
   margin-bottom: 20px; 
@@ -250,30 +245,7 @@ footer{
   img{
     height:110vh;
   }
-  h1::after{
-    z-index: -1;
-    content: "";
-    background: #145348;
-    transform: skewY(3deg);
-    width: 50%;
-    height:50px;
-    position: absolute;
-    left: 0;
-    top: 50px;
-    border: solid 1px  #145348;
-  }
-  h1::before{
-    z-index: -1;
-    content: "";
-    background: #145348;
-    transform: skewY(-3deg);
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    right: 0;
-    top: 50px;
-    border: solid 1px #145348;
-  }
+  
 }
 
 @media screen and (min-width: 961px) {
@@ -304,30 +276,7 @@ h4{
   margin-top: 31px;
 }
 
-h1::after{
-  z-index: -1;
-  content: "";
-  background: #145348;
-  transform: skewY(3deg);
-  width: 50%;
-  height: 60px;
-  position: absolute;
-  left: 0;
-  top: 40px;
-  border: solid 1px  #145348;
-}
-h1::before{
-  z-index: -1;
-  content: "";
-  background: #145348;
-  transform: skewY(-3deg);
-  width: 50%;
-  height: 60px;
-  position: absolute;
-  right: 0;
-  top: 40px;
-  border: solid 1px #145348;
-}
+
 #map { 
   height: 400px;
   z-index: 2;
@@ -341,8 +290,11 @@ h1::before{
   max-width: 1100px;
   margin:auto;
   margin-top: 100px;
+  align-items: center;
 }
-
+#result-city{
+  max-width: 650px;
+}
 
 
 }
