@@ -47,12 +47,12 @@ img{
 }
 #title{
   width:100%;
-  height:75px;
+  height:max-content;
   background:#145348c9; 
   padding:20px;
   color: #ffffff;
   letter-spacing: 0.05em;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   font-size: 2em;
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -215,7 +215,7 @@ li p:nth-child(2) {
   margin: 0;
   justify-content: center;
   margin-top: 30px;
-  
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
 }
 
 
@@ -290,6 +290,7 @@ h4{
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
 }
 
 #result-data{
