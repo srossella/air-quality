@@ -59,22 +59,7 @@ img{
 	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(12px);
-	
 }
-
-
-
-
-/* h1{
-  font-size: 1.8em;
-  z-index: 12;
-  position: relative;
-  background: rgb(223, 61, 61);
-  color:#145336;
-  margin: 20px;
-  text-transform:uppercase;
-  padding: 15px;
-} */
 
   #input-city {
     width: 220px;
@@ -98,7 +83,6 @@ h4{
   text-align: left;
   width: 220px;
   color:rgb(0, 0, 0);
-  
   padding-top: 10px;
   margin-bottom: 5px;
 }
@@ -136,14 +120,12 @@ h4{
   position: relative;
   margin-top: 80px;
   justify-content: center;
-  
   color:rgb(0, 0, 0);
   padding: 0px;
   font-size: 1.1em;
   z-index:2;
   letter-spacing: 0.02em;
   flex-direction: row;
-  
   flex-wrap: wrap;
   
   
@@ -176,7 +158,6 @@ ul{
   margin-top: 30px;
   width: 280px;
   padding-top: 0;
-  /* border: solid 2px #145336; */
   padding:15px;
   background-color: #ffffffad;
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
@@ -218,7 +199,6 @@ li p:nth-child(2) {
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
 }
 
-
 footer{
   color: #145348;
   background-color: white;
@@ -242,14 +222,11 @@ footer{
 }
 
 
-
-
 @media only screen and (min-width: 401px) and (max-width: 960px)
 {
   img{
     height:110vh;
   }
-  
 }
 
 @media screen and (min-width: 961px) {
@@ -279,7 +256,6 @@ h4{
 #getloc{
   margin-top: 31px;
 }
-
 
 #map { 
   height: 344px;
