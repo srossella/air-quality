@@ -42,7 +42,7 @@
 
 ## About The Project
 
-![Product Name Screen Shot](dist/screenshot.png)
+![Product Name Screen Shot](build/img/screenshot.png)
 
 This is a simple website that displays data about the air quality in a specific city or location. It fetches data from [AQICN](aqicn.org) through their [API](https://aqicn.org/api/).
 Data can be retrieved through geolocation or manual input of a city name. When geolocation is used, data of the closest station are shown. 
