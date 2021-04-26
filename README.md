@@ -136,7 +136,7 @@ Project Link: [Air Quality](https://github.com/srossella/air-quality)
 [issues-shield]: https://img.shields.io/github/issues/srossella/air-quality?style=for-the-badge
 [issues-url]: https://github.com/srossella/air-quality/issues
 [license-shield]: https://img.shields.io/github/license/srossella/air-quality?style=for-the-badge
-[license-url]: https://github.com/srossella/air-quality/main/LICENSE.txt
+[license-url]: https://github.com/srossella/air-quality/blob/main/LICENSE.txt
 
 
 
