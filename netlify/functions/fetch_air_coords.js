@@ -6,8 +6,6 @@ const handler = async (event) => {
   const API_SECRET =process.env.API_SECRET
   const url= `https://api.waqi.info/feed/geo:${lat};${long}/?token=${API_SECRET}`
   
-  //const url= `https://api.waqi.info/feed/${input}/?token=${API_SECRET}`
-
 
   try{
     const {data } = await axios.get(url)

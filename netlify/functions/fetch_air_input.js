@@ -1,11 +1,11 @@
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
-// yarn netlify dev -> to run 
+
 const axios = require('axios');
 
 const handler = async (event) => {
   const {input}=event.queryStringParameters
   const API_SECRET =process.env.API_SECRET
-  //const url= `https://api.waqi.info/feed/${input}/?token=${API_SECRET}`
+
 
   const url= `https://api.waqi.info/feed/${input}/?token=${API_SECRET}`
   try{

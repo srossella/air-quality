@@ -59,7 +59,10 @@ If you prefer to run a local copy please follow the steps below.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+Netlify functions have been used in this project for the deployment on Netlify servers, as this permits to hide the API keys easily and safely. 
+
+Therefore the `build` version uses netlify functions saved in the netlify folder. To run a local copy in your computer you can follow the steps below that don't involve the use of netlify functions but it only use the `index-dev.js` file and `.env` file.
+
 
 ### Prerequisites
 Install the latest version of `npm`
@@ -82,21 +85,19 @@ Install the latest version of `npm`
    npm install
    ```
 
-3. Build from source
+3. Get a free API key at [Air Quality Open Data Platform](https://aqicn.org/data-platform/token/#/)
 
-   ```sh
-   npm run build
-   ```
-
-4. Get a free API key at [Air Quality Open Data Platform](https://aqicn.org/data-platform/token/#/)
-
-5. Create a .env file in the root folder with just one line:
+4. Create a .env file in the root folder with just one line:
 
    ```sh
    API_SECRET = 'your API key here'
    ```
+5. Run development version 
 
-6. Open `build/index.html`
+   ```sh
+   npm run dev
+   ```
+
 
 ## Usage
 
