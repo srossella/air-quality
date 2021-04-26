@@ -48,7 +48,7 @@ This is a simple website that displays data about the air quality in a specific 
 Data can be retrieved through geolocation or manual input of a city name. When geolocation is used, data of the closest station are shown. 
 A map made with [Leaflet](https://leafletjs.com/) is also displayed with a marker placed in the station location. 
 
-This project is deployed and accessible at [epic-cray-3682ff.netlify.app](https://epic-cray-3682ff.netlify.app/). 
+This project is deployed and accessible at [air-quality-now-rs.netlify.app](https://air-quality-now-rs.netlify.app/). 
 If you prefer to run a local copy please follow the steps below.
 
 ### Built With
@@ -127,6 +127,7 @@ Project Link: [Air Quality](https://github.com/srossella/air-quality)
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 * [Air Pollution: Real-time Air Quality Index (AQI)](https://aqicn.org/)
+* [Netlify](https://netlify.com)
 
 [contributors-shield]: https://img.shields.io/github/contributors/srossella/air-quality?style=for-the-badge
 [contributors-url]: https://github.com/srossella/air-quality/graphs/contributors
