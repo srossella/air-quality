@@ -42,7 +42,7 @@
 
 ## About The Project
 
-![Product Name Screen Shot](build/img/screenshot.PNG)
+![Product Name Screen Shot](build/img/Screenshot.PNG)
 
 This is a simple website that displays data about the air quality in a specific city or location. It fetches data from [AQICN](aqicn.org) through their [API](https://aqicn.org/api/).
 Data can be retrieved through geolocation or manual input of a city name. When geolocation is used, data of the closest station are shown. 
@@ -136,7 +136,7 @@ Project Link: [Air Quality](https://github.com/srossella/air-quality)
 [issues-shield]: https://img.shields.io/github/issues/srossella/air-quality?style=for-the-badge
 [issues-url]: https://github.com/srossella/air-quality/issues
 [license-shield]: https://img.shields.io/github/license/srossella/air-quality?style=for-the-badge
-[license-url]: https://github.com/srossella/repo/air-quality/main/LICENSE.txt
+[license-url]: https://github.com/srossella/air-quality/main/LICENSE.txt
 
 
 
