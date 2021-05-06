@@ -4,7 +4,8 @@
 //fetch data from API through manual input
 const getForecastFromInput = async () => {
   const input = document.getElementById('input-city').value;
-  const urlToFetch =  `/.netlify/functions/fetch_air_input?input=${input}`;  
+  const API_SECRET =process.env.API_SECRET;
+  const urlToFetch =  `https://api.waqi.info/feed/${input}/?token=${API_SECRET}`;  
   try {
     const response = await fetch(urlToFetch);
     if (response.ok) {
@@ -30,8 +31,8 @@ const getForecastFromInput = async () => {
 const getForecastFromCoord = async (lat, long) => {
   //lat=-23.54564
   //long=-46.6457547
-  
-  const urlToFetch=`/.netlify/functions/fetch_air_coords?lat=${lat}&long=${long}`;
+  const API_SECRET =process.env.API_SECRET;
+  const urlToFetch=`https://api.waqi.info/feed/geo:${lat};${long}/?token=${API_SECRET}`;
 
   try {
     const response = await fetch(urlToFetch);

@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import {getForecastFromInput, getForecastFromCoord} from './js/service.js';
+import {getForecastFromInput, getForecastFromCoord} from './js/service-dev.js';
 import {deletePreviousResults, renderAqi, renderMap} from './js/view.js';
 
 
