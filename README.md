@@ -55,6 +55,7 @@ If you prefer to run a local copy please follow the steps below.
 
 * [Leaflet](https://leafletjs.com/)
 * [Axios](https://github.com/axios/axios)
+* [Lodash](https://lodash.com/)
 
 
 ## Getting Started

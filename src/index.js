@@ -12,7 +12,6 @@ const searchWithInput = () => {
   getForecastFromInput()
   .then(res =>renderAqi(res))
   .then(res => renderMap(res))
-  return false;
 }
 
 //initialize new search through geolocation
